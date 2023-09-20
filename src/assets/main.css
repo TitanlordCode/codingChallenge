@@ -1,0 +1,23 @@
+:root {
+  --primary-color: #00A4E0;
+  --primary-color-variant: #0D81B3;
+  --background: #EEE;
+  --text-color: #272727;
+  --text-color-accent: #888;
+  --padding-default: 40px;
+  --border-radius: 4px;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Lato, Helvetica, sans-serif;
+  color: var(--text-color);
+  background-color: var(--background);
+}
+#app {
+  width: 100%;
+  height: 100%;
+}
